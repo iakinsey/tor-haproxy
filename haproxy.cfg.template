@@ -1,0 +1,13 @@
+global
+  maxconn 1024 
+  daemon
+  pidfile {pid_file}
+
+listen socks
+  bind 0.0.0.0:{control_port}
+  mode tcp
+  timeout connect 5s
+  timeout client 60s
+  timeout server 60s
+  balance leastconn
+{backends}
