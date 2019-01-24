@@ -2,7 +2,7 @@
 ## It's just Tor behind Haproxy
 
 ### Design
-![Diagram](https://raw.githubusercontent.com/iakinsey/tor-haproxy/master/diagram.png
+![Diagram](https://raw.githubusercontent.com/iakinsey/tor-haproxy/master/diagram.png)
 
 ### Build
 
